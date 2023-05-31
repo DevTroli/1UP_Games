@@ -1,0 +1,184 @@
+body{
+    background-color:  #e0e0e0;
+}
+
+#sobre {
+    background-color:#c1c1c1;
+ }
+ 
+
+ .navbar-brand {
+     color: rgb(255, 255, 255);
+ }
+ 
+ .navbar {
+     background-color: #4d7075;
+     padding: 20px;
+ }
+ 
+ a {
+     margin-right: 20px;
+ }
+ 
+ .nav-link {
+     color: rgb(255, 255, 255);
+ }
+ 
+.nav-pills .nav-link.active,
+ .nav-pills .show > .nav-link,
+ .nav-link:hover {
+     color: #fff;
+     background-color: #6ec189;
+ }
+
+
+ 
+ .navbar-brand:hover,
+ .navbar-brand:focus {
+     color: rgb(255, 255, 255);
+ }
+ 
+ .navbar-brand {
+     font-size: 20px;
+     font-family: 'Aoboshi One', serif;
+     font-family: 'Pacifico', cursive;
+     font-family: 'Press Start 2P', cursive;
+     font-weight: bold;
+     color: rgb(243, 243, 240);
+     text-shadow: 1px 1px #6ec189;
+ }
+ 
+ .navbar-toggler {
+     color: transparent;
+     padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+     font-size: var(--bs-navbar-toggler-font-size);
+     line-height: 1;
+     background-color: transparent;
+     border: none;
+     border-radius: var(--bs-navbar-toggler-border-radius);
+     transition: var(--bs-navbar-toggler-transition);
+ }
+
+
+#sobre h3{
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: #4d7075;
+}
+  
+#sobre h2{
+    font-family: 'Aoboshi One', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: #4d7075;
+}	
+
+#sobre img{
+    border-radius: 75px;
+}
+
+#sobre span{
+    color: #6ec189;
+}
+
+#hype h2, #plataforma h2{
+    color: #4d7075;
+    text-align: center;
+}
+ #hype span{
+    color: #6ec189;
+}
+
+#hype img, .tab-content img{
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#hype img:hover, .tab-content img:hover{
+    transform: scale(1.06);
+    transition: 0.3s;
+    filter: brightness(1.08)
+    
+}
+
+.nav-jogos .nav-link{
+    color: #000000;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: #e7e7e7;
+}
+
+.nav-jogos .nv2:hover{
+    background-color: #1b5bdb;
+    color: #fff;
+    transition: 0.3s;
+    scale: 1.05;
+}
+.nav-jogos .nv1:hover
+{
+    background-color: #31862ece;
+    color: #fff;
+    scale: 1.05;
+}
+.nav-jogos .nv3:hover
+{
+    background-color: #f30000ce;
+    color: #fff;
+    scale: 1.05;
+}
+.nav-jogos .nv4:hover
+{
+    background-color: #e3c84deb;
+    color: #fff;
+    scale: 1.05;
+}
+
+#redes span{
+    color: #6ec189;}
+
+#contato h2{
+    color: #4d7075;
+    text-shadow: 2px 2px #6ec189;
+}
+
+
+.youtube{
+    color: #ff0000;
+}
+
+.zap{
+    color: #6ec189;
+}
+
+
+.insta{
+    color: #a041cfd3;
+}
+
+.soacial-links .zap{
+    scale: 1.05;
+}
+
+#contato{
+    background-color: #e9e8e8;
+}
+
+footer{
+    background-color: #4d7075;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+}
